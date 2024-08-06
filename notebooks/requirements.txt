@@ -3,7 +3,6 @@ matplotlib
 geopandas
 pandas
 numpy
-matplotlib.pyplot
 seaborn
 warnings
 shapely
