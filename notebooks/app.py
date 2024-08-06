@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.title('Upload and Display GIF')
+# Title for the app
+st.title('311 Requests Dynamic Map')
 
-# File uploader 
-uploaded_file = st.file_uploader("Choose a GIF file", type="gif")
+# Path to the GIF file 
+gif_path = 'notebooks/Dynamic_311_Requests.gif'
 
-if uploaded_file is not None:
-    # Display the GIF file
-    st.image(uploaded_file) 
+# Display the GIF file
+st.image(gif_path)
